@@ -13,8 +13,8 @@ docker build --tag bmi-example-c .
 The image is built on the [condaforge/mambaforge](https://hub.docker.com/r/condaforge/mambaforge) base image.
 The OS is Linux/Ubuntu.
 `conda` and `mamba` are installed in `CONDA_DIR=/opt/conda`.
-The *base* environment is activated,
-and the C BMI example, including the `run_bmiheatc` executable, is installed into it.
+The *base* environment is activated.
+and the C BMI specification and example, including the `run_bmiheatc` executable, are installed into it.
 
 ## Run a container
 
