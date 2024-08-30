@@ -37,7 +37,7 @@ cat bmiheatc.out
 ## Developer notes
 
 A versioned, multiplatform image built from this repository is hosted on Docker Hub
-at [csdms/bmi-example-c](https://hub.docker.com/repository/docker/csdms/bmi-example-c-docker/).
+at [csdms/bmi-example-c](https://hub.docker.com/repository/docker/csdms/bmi-example-c/).
 This image is automatically built and pushed to Docker Hub
 with the [release](./.github/workflows/release.yml) CI workflow.
 The workflow is only run when the repository is tagged.
